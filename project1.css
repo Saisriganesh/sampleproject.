@@ -1,0 +1,69 @@
+
+.cardbody {
+    border: 2px solid yellowgreen;
+    padding: 1%;
+    margin: 0.5%;
+    font-size: 20;
+    background-color: mediumturquoise;
+        
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: space-around;
+    }
+    s{
+        color: red;
+    }
+    p{
+        color: purple;
+    }
+    h2{
+        color: sienna;
+    }
+    u{
+        color: tan;
+    }
+    button {
+        background-color: darkgreen;
+    }
+    .cardbody img{
+        width:60%
+    }
+@media only screen and (min-width:320px) and (max-width:480px){
+    
+.cardbody {
+    border: 2px solid yellowgreen;
+    padding:1%;
+    margin:0.5%;
+    font-size:20px;
+    background-color:skyblue;
+        
+    }
+    .card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    s{
+        color: red;
+    }
+    p{
+        color: purple;
+    }
+    h2{
+        color: sienna;
+    }
+    u{
+        color: tan;
+    }
+    button {
+        background-color: darkgreen;
+    }
+    .cardbody img{
+        width:60%;
+    }
+        
+ }
